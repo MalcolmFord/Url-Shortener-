@@ -3,7 +3,6 @@ class CreateUrls < ActiveRecord::Migration[5.2]
     create_table :urls do |t|
       t.string :url
       t.string :shortUrl
-      t.integer :id
       t.integer :userId
 
       t.timestamps
